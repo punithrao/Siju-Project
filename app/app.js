@@ -3,7 +3,7 @@
       var app = angular.module('myApp', ['ui.router']);
 
       app.run(function($rootScope, $location, $state, loginService) {
-        console.log("AppJS::run()---------");
+        console.log("AppJS::run()----loginmoduleupdates for testing git-----");
         $rootScope.$on('$stateChangeStart', 
         function(event, toState, toParams, fromState, fromParams){ 
           console.log(toState);
